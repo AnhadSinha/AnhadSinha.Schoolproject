@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nova Foundation</title>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+	.parent{
+		grid-template-rows: 200px 400px auto 300px;	
+	}
+	.nav{
+		display: flex;
+		background-color: darkblue;
+		font-family: 'Recursive', sans-serif;
+	}
+	.nav-img img{
+		width: 100px;
+		height: 100px;
+	}
+	.nav-items{
+		color: white;
+		display: flex;
+	}
+	.about-us{
+		padding-left: 1100px;
+		padding-right: 20px;
+
+	}
+	.contacts{
+		padding-right: 20px;
+	}
+	.header img{
+		width: 70%;
+		height: 450px;
+		justify-content: center;
+
+	}
+	.header{
+		background-color: lightskyblue;
+	}
+	.bodies{
+		font-family: 'Recursive', sans-serif;
+		display: flex;
+	}
+	.body-items-left{
+		width: 712px;
+		padding-left: 40px;
+
+	}
+	.body-items-right img{
+		width: 300px;
+		height: 300px;
+		padding-left: 100px;
+	}
+	.about{
+		width: 100%;
+		height: 100px;
+		background-color: darkblue;
+	}
+	label{
+		color: white
+	}
+
+</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="nav">
+			<div class="nav-img"><img src="https://wosu.org/wp-content/uploads/2019/07/NOVA-SPACE.jpg"></div>
+			<div class="nav-items">
+				<div class="about-us"><h3>About Us</h3></div>
+				<div class="contacts"><h3>Contacts</h3></div>
+				<div class="help"><h3>Help</h3></div>
+			</div>
+		</div>
+		<div class="header"><img src="https://i.pinimg.com/originals/23/e4/46/23e44688e3c3a5e127a2750944f35cf1.png"></div>
+		<div class="bodies">
+			<div class="body-items-left"><h2>What do we work for:<h2>
+				<h4>We are working to raise a fund to help missions to the moon and the NOVA foundation would be more than pleased to donate to our cause. The NOVA foundation has raised over 2 billion USD to help fund NASA with the new apollo mission to the moon. We are also funding to SpaceX to one day make someone land on the moon.</h4>
+				<h2>What we have achieved:</h2>
+				<h4>We won the Guinness World Record of the largest donation to a company by 700 million dollars to fund the apollo 14 and 15 missions. We also recieve money from NASA and SpaceX from funding their missions.</h4>
+			</div>
+			<div class="body-items-right">
+				<img src="https://i.pinimg.com/originals/92/21/9f/92219f4cf1b89ab6f13746a721df3cd3.png">
+			</div>
+
+		</div>
+		<div class="about">
+			<h1>Do you want to donate?</h1>
+			<form action="#">
+				<input type="text" name="email" placeholder="Enter your Email">
+				<input type="number" name="money" placeholder="Amount of donation">
+				<label for="radio">Are you sure about this payment?</label>
+				<input type="radio" name="subscribe" value="yes">
+				<label for="yes">Yes</label>
+				<input type="radio" name="subscribe" value="no">
+				<label for="yes">No</label>
+				<input type="submit">
+				
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
